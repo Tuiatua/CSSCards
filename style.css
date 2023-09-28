@@ -1,0 +1,36 @@
+.card-area{
+    display:flex;
+    flex-wrap:wrap;
+}
+.card{
+    width:400px;
+    min-height:200px;
+    background-color:wheat;
+    border:solid 1px gray;
+}
+.top{
+display:flex;
+    justify-content:space-between;
+    padding:20px;
+    align-items:center;
+}
+.bottom{
+
+}
+.left{
+
+}
+.right{
+
+}
+.left-top{
+font-weight:bold;
+}
+.left-bottom{
+color:gray;
+}
+.guy{
+    height:60px;
+    width:60px;
+
+}
