@@ -7,6 +7,10 @@
     min-height:200px;
     background-color:wheat;
     border:solid 1px gray;
+    border-radius:8px;
+    box-shadow: 0 4px 8px 0 gray;
+    flex-wrap:wrap;
+    margin:40px;
 }
 .top{
 display:flex;
@@ -15,14 +19,12 @@ display:flex;
     align-items:center;
 }
 .bottom{
-
+display:flex;
 }
 .left{
 
 }
-.right{
 
-}
 .left-top{
 font-weight:bold;
 }
@@ -32,5 +34,17 @@ color:gray;
 .guy{
     height:60px;
     width:60px;
-
+    border-bottom-left-radius:40px 80px;
+}
+.button{
+    border-top:1px solid gray;
+    flex:1;
+    text-align:center;
+    padding:16px;
+}
+.email{
+    border-right:1px solid gray;
+}
+.button:hover{
+    background-color: #4a5568
 }
